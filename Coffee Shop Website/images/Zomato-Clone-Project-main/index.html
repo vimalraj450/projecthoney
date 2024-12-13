@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Best Food Places To Eat In Chennai | Zomato</title>
+    <link rel="stylesheet" href="/Zomato-Clone-Project/styles/style.css">
+    <link rel="icon" type="images/png" href="/Zomato-Clone-Project/images/logo1.png">
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+    <!--Zomato Top nav Bar-->
+    <div class="topnav">
+        <div class="z-logo">
+            <a href="/Zomato-Clone-Project/index.html">
+                <img src="/Zomato-Clone-Project/images/zomato logo.png" alt="logo"></a>
+        </div>
+
+        <div class="search-bar">
+            <div class="search-logo">
+                <img src="/Zomato-Clone-Project/images/search-icon.png" alt="search-icon">
+            </div>
+        </div>
+        <div class="search-box">
+            <input type="text" class="search-text" placeholder="Search For Restaurants,Dishes or Dishes">
+        </div>
+        <div class="topnav-button">
+            <div class="log-button">
+                <a href="">
+                    <button>Log</button>
+                </a>
+            </div>
+            <div class="WriteName-button">
+                <a href="">
+                    <button>Write Name</button>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!--Delivery DineOut-->
+    <div class="top-delivery">
+        <div class="delivery">
+            <a href="/Zomato-Clone-Project/index.html" target="_self">
+                <img src="/Zomato-Clone-Project/images/scooter.jpg" alt="">
+                <button class="deliverybtn">Delivery</button>
+            </a>
+            <a href="">
+                <img src="/Zomato-Clone-Project/images/dineout.JPG" alt="">
+                <button class="dineoutbtn">Dineout</button>
+            </a>
+            <a href="">
+                <img src="/Zomato-Clone-Project/images/nightout.JPG" alt="">
+                <button class="nightlifebtn">NightLife</button>
+            </a>
+        </div>
+        <hr color="F3F3F3">
+    </div>
+    <!--Filter 4 Buttons-->
+    <div class="filterbtns">
+
+        <a href="">
+            <button class="filterbtn">Filter</button>
+        </a>
+        <a href="">
+            <button class="ratingbtn">Rating: 4.0+</button>
+        </a>
+        <a href="">
+            <button class="purevegbtn">Pure Veg</button>
+        </a>
+
+
+        <select id="cuisines">
+
+            <option value="Cuisines">Cuisines</option>
+            <option value="Abruzzese">Abruzzese</option>
+            <option value="Aceh">Aceh</option>
+            <option value="Aegean">Aegean</option>
+            <option value="Afghan">Afghan</option>
+            <option value="Afghani">Afghani</option>
+            <option value="African">African</option>
+            <option value="Agritourism">Agritourism</option>
+            <option value="Alentejana">Alentejana</option>
+
+        </select>
+
+
+    </div>
+    <!--Dishes-->
+    <div class="middle-dish">
+        <div class="dishes">
+
+            <h1>Inspiration for your first order</h1>
+            <div class="dishes-images">
+                <a href="https://en.wikipedia.org/wiki/Biryani" target="_blank">
+                    <img src="/Zomato-Clone-Project/images/briyani.JPG" alt="">
+                    <h3>Briyani</h3>
+                </a>
+
+                <a href="https://en.wikipedia.org/wiki/Pizza" target="_blank">
+                    <img src="/Zomato-Clone-Project/images/pizza.JPG" alt="">
+                    <h3>Pizza</h3>
+                </a>
+
+                <a href="https://en.wikipedia.org/wiki/Chicken" target="_blank">
+                    <img src="/Zomato-Clone-Project/images/chicken.JPG" alt="">
+                    <h3>Chicken</h3>
+                </a>
+
+                <a href="https://en.wikipedia.org/wiki/Fried_rice" target="_blank">
+                    <img src="/Zomato-Clone-Project/images/fried rice.JPG" alt="">
+                    <h3>Fried Rice</h3>
+                </a>
+
+                <a href="https://en.wikipedia.org/wiki/Hamburger" target="_blank">
+                    <img src="/Zomato-Clone-Project/images/burger.JPG" alt="">
+                    <h3>Burger</h3>
+                </a>
+
+                <a href="https://en.wikipedia.org/wiki/Dosa_(food)" target="_blank">
+                    <img src="/Zomato-Clone-Project/images/dosa.JPG" alt="">
+                    <h3>Dosa</h3>
+                </a>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!--Dishes-->
+    <div class="Restaurants">
+        <div class="Restaurant-collec">
+
+            <h1>Top brands for you</h1>
+            <div class="Restaurant-imgs">
+                <a href="https://en.wikipedia.org/wiki/Adyar_Ananda_Bhavan" target="_blank">
+                    <img src="/Zomato-Clone-Project/images/A2B.png" alt="">
+                    <h3>A2B - Adyar<br>Ananda Bhavan
+                        <p>48 mins</p>
+                    </h3>
+
+                </a>
+
+                <a href="https://en.wikipedia.org/wiki/McDonald%27s" target="_blank">
+                    <img src="/Zomato-Clone-Project/images/mcdonalds.png" alt="">
+                    <h3>McDonald's<p>14 mins</p>
+                    </h3>
+
+                </a>
+
+                <a href="https://en.wikipedia.org/wiki/Vegetarianism" target="_blank">
+                    <img src="/Zomato-Clone-Project/images/sangeetha.png" alt="">
+                    <h3>Sangeetha Veg <br> Restaurant -<br>Gandhi Irwin Road<p>50 mins</p>
+                    </h3>
+
+                </a>
+
+                <a href="https://en.wikipedia.org/wiki/Burger_King" target="_blank">
+                    <img src="/Zomato-Clone-Project/images/burger king.jpg" alt="">
+                    <h3>Burger King<p>27 mins</p>
+                    </h3>
+
+                </a>
+
+                <a href="https://en.wikipedia.org/wiki/Biryani" target="_blank">
+                    <img src="/Zomato-Clone-Project/images/dindugal briyani.jpg" alt="">
+                    <h3>Dindigul<br>Thalappakatti<p>17 mins</p>
+                    </h3>
+
+                </a>
+
+                <a href="https://en.wikipedia.org/wiki/Vegetarianism" target="_blank    ">
+                    <img src="/Zomato-Clone-Project/images/geetham.jpg" alt="">
+                    <h3>Geetham Veg<br>Restaurant<p>7 mins</p>
+                    </h3>
+
+                </a>
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <!--Foods-->
+
+    <div class="food-imgs">
+        <h1>Best foods in chennai</h1>
+        <div class="foods">
+
+            <div class="food-container">
+                <a href="https://www.zomato.com/chennai?lang=en&user_lang_change=1">
+                    <img src="/Zomato-Clone-Project/images/food1.JPG" alt=""></a>
+
+
+                <div class="heading">
+                    <h2>Hotel Saravana Bhavan</h2>
+                    <div class="rating">
+
+                        <div class="score">4.0 ✩</div>
+
+                    </div>
+                </div>
+                <div class="heading">
+                    <h4>South Indian, North Indian</h4>
+                    <div class="piece-time">
+
+                        <div class="piece">₹150 for one</div>
+                        <div class="time">28 mins</div>
+
+
+                    </div>
+
+
+                    <hr color="F3F3F3">
+                </div>
+
+            </div>
+            <div class="food-container">
+                <a href="">
+                    <img src="/Zomato-Clone-Project/images/food2.JPG" alt="">
+
+                    <div class="heading">
+                        <h2>KFC</h2>
+                        <div class="rating">
+
+                            <div class="score">4.7 ✩</div>
+
+                        </div>
+                    </div>
+                    <div class="heading">
+                        <h4>Burger, Fast food</h4>
+                        <div class="piece-time">
+
+                            <div class="piece">₹150 for one</div>
+                            <div class="time">16 mins</div>
+
+                </a>
+            </div>
+
+        </div>
+        <hr color="F3F3F3">
+    </div>
+    <div class="food-container">
+        <a href="">
+            <img src="/Zomato-Clone-Project/images/food3.JPG" alt="">
+
+
+            <div class="heading">
+                <h2>SS Hyderabad Briyani</h2>
+                <div class="rating">
+
+                    <div class="score">4.4 ✩</div>
+
+                </div>
+            </div>
+            <div class="heading">
+                <h4>Briyani, Seafood, North Indian</h4>
+                <div class="piece-time">
+
+                    <div class="piece">₹150 for one</div>
+                    <div class="time">18 mins</div>
+        </a>
+
+    </div>
+
+    </div>
+    <hr color="F3F3F3">
+    </div>
+    </div>
+    <div class="foods">
+        <div class="food-container">
+            <a href="">
+                <img src="/Zomato-Clone-Project/images/food4.JPG" alt="">
+
+
+                <div class="heading">
+                    <h2>Sangeetha Veg Restaurant</h2>
+                    <div class="rating">
+
+                        <div class="score">4.2 ✩</div>
+
+                    </div>
+                </div>
+                <div class="heading">
+                    <h4>South Indian,North Indian</h4>
+                    <div class="piece-time">
+
+                        <div class="piece">₹150 for one</div>
+                        <div class="time">25 mins</div>
+
+            </a>
+        </div>
+
+    </div>
+    <hr color="F3F3F3">
+    </div>
+    <div class="food-container">
+        <a href="">
+            <img src="/Zomato-Clone-Project/images/food5.JPG" alt="">
+
+
+            <div class="heading">
+                <h2>Hotel Shiva Sagar</h2>
+                <div class="rating">
+
+                    <div class="score">4.1 ✩</div>
+
+                </div>
+            </div>
+            <div class="heading">
+                <h4>South Indian,North Indian</h4>
+                <div class="piece-time">
+
+                    <div class="piece">₹150 for one</div>
+                    <div class="time">20 mins</div>
+
+        </a>
+    </div>
+
+    </div>
+    <hr color="F3F3F3">
+    </div>
+    <div class="food-container">
+        <a href="">
+            <img src="/Zomato-Clone-Project/images/food6.JPG" alt="">
+
+
+            <div class="heading">
+                <h2>Salem RR Briyani</h2>
+                <div class="rating">
+
+                    <div class="score">3.5 ✩</div>
+
+                </div>
+            </div>
+            <div class="heading">
+                <h4>Briyani,South Indian</h4>
+                <div class="piece-time">
+
+                    <div class="piece">₹150 for one</div>
+                    <div class="time">10 mins</div>
+
+        </a>
+    </div>
+
+    </div>
+    <hr color="F3F3F3">
+    </div>
+    </div>
+
+    </div>
+
+    <!--Footer Part-->
+    <footer class="zomato-footer">
+
+        <div class="top-footer">
+            <a href="/Zomato-Clone-Project/index.html">
+                <img src="/Zomato-Clone-Project/images/zomato logo.png" alt="">
+            </a>
+            <div class="india-dropdown">
+
+                <select id="india">
+
+                    <option value="India">India</option>
+
+                    <option value="UAE">UAE</option>
+
+                </select>
+
+
+            </div>
+            <div class="language-dropdown">
+
+                <select id="language">
+
+                    <option value="English"> 🌐 English</option>
+                    <option value="Türkçe">Türkçe</option>
+                    <option value="हिंदी">हिंदी</option>
+                    <option value="Português (BR)">Português (BR)</option>
+                    <option value="Indonesian">Indonesian</option>
+                    <option value="Português (PT)">Português (PT)</option>
+                    <option value="Español">Español</option>
+                    <option value="Čeština">Čeština</option>
+                    <option value="Slovenčina">Slovenčina</option>
+                    <option value="Polish">Polish</option>
+                    <option value="Italian">Italian</option>
+                    <option value="Vietnamese">Vietnamese</option>
+
+
+                </select>
+
+
+            </div>
+
+
+
+
+        </div>
+
+
+        <div class="middle-footer">
+
+            <div class="about-zomato">
+                <h3>ABOUT ZOMATO</h3>
+
+                <a href="">
+                    <p> Who We Are</p>
+                </a>
+                <a href="">
+                    <p>Blog</p>
+                </a>
+                <a href="">
+                    <p>Work With Us</p>
+                </a>
+                <a href="">
+                    <p> Investor Relations </p>
+                </a>
+                <a href="">
+                    <p> Report Fraud</p>
+                </a>
+                <a href="">
+                    <p>Press Kit</p>
+                </a>
+                <a href="">
+                    <p>Contact Us</p>
+                </a>
+
+
+
+
+            </div>
+            <div id="zomaverse" class="about-zomato">
+                <h3>ZOMAVERSE</h3>
+                <a href="">
+                    <p>Zomato</p>
+                </a>
+                <a href="">
+                    <p>Blinkit</p>
+                </a>
+                <a href="">
+                    <p>Feeding India</p>
+                </a>
+                <a href="">
+                    <p>Hyperpure</p>
+                </a>
+                <a href="">
+                    <p>Zomaland</p>
+                </a>
+
+            </div>
+
+            <div id="for-restaurants" class="about-zomato">
+                <h3>FOR RESTAURANTS</h3>
+                <a href="">
+                    <p>Partner With Us</p>
+                </a>
+                <a href="">
+                    <p>Apps For You</p>
+                </a>
+
+                <h3>FOR ENTERPRISES</h3>
+                <a href="">
+                    <p>Zomato For Enterprise</p>
+                </a>
+
+
+            </div>
+            <div id="learn-more" class="about-zomato">
+                <h3>LEARN MORE</h3>
+                <a href="">
+                    <p>Privacy</p>
+                </a>
+                <a href="">
+                    <p>Security</p>
+                </a>
+                <a href="">
+                    <p>Terms</p>
+                </a>
+                <a href="">
+                    <p>Sitemap</p>
+                </a>
+
+            </div>
+            <div id="social-links" class="about-zomato">
+                <h3>SOCIAL LINKS</h3>
+                <div class="social">
+                    <a href="https://www.linkedin.com/home" target="_blank"><img
+                            src="/Zomato-Clone-Project/icons/linkedin.png" alt=""></a>
+                    <a href="https://www.instagram.com/" target="_blank"><img
+                            src="/Zomato-Clone-Project/icons/instagram.png" alt=""></a>
+                    <a href="https://twitter.com/?lang=en" target="_blank"><img
+                            src="/Zomato-Clone-Project/icons/twitter.png" alt=""></a>
+                    <a href="https://www.youtube.com/" target="_blank"><img
+                            src="/Zomato-Clone-Project/icons/youtube.png" alt=""></a>
+                    <a href="https://www.facebook.com/" target="_blank"><img
+                            src="/Zomato-Clone-Project/icons/facebook.png" alt=""></a>
+                </div>
+                <div class="apple-playstore">
+                    <a href="https://www.apple.com/in/?afid=p238%7Csfo291LJq-dc_mtid_187079nc38483_pcrid_680861337497_pgrid_109516736059_pntwk_g_pchan__pexid__&cid=aos-IN-kwgo-brand--slid---product-"
+                        target="_blank"> <img src="/Zomato-Clone-Project/icons/apple.JPG" alt=""></a>
+                    <a href="https://play.google.com/store/games?hl=en&gl=US&pli=1" target="_blank"><img
+                            src="/Zomato-Clone-Project/icons/playstore.JPG" alt=""></a>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+
+    </footer>
+
+
+</body>
+
+</html>

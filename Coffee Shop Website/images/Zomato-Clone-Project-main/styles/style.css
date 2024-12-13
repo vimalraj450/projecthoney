@@ -1,0 +1,402 @@
+body {
+  height: 100vh;
+}
+.topnav {
+  display: inline-flex;
+  position: fixed;
+  background-color: white;
+  top: 0%;
+}
+.z-logo {
+  margin-left: 22.7rem;
+  margin-top: 10px;
+}
+.z-logo img {
+  height: 25px;
+  width: 150px;
+}
+
+.topnav-button {
+  display: flex;
+  margin-left: 5rem;
+  margin-top: 10px;
+}
+
+.topnav-button button {
+  height: 40px;
+  width: 130px;
+  font-size: 20px;
+  border: none;
+  background-color: white;
+  text-align: center;
+  color: #9c9c9c;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.topnav-button .log-button {
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.search-logo img {
+  height: 20px;
+
+  margin-left: 10rem;
+  margin-top: 18px;
+  margin-right: 3px;
+}
+
+.search-box .search-text {
+  height: 40px;
+  width: 500px;
+  text-decoration: none;
+  border: none;
+  font-size: 15px;
+  text-align: left;
+  margin-top: 6px;
+}
+
+.topnav-button button:hover {
+  cursor: pointer;
+}
+
+.delivery button {
+  height: 40px;
+  width: 130px;
+  font-size: 20px;
+  border: none;
+  background-color: white;
+  text-align: center;
+  color: #6a6a6a;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Delivey-Dineout-Nightlife*/
+.top-delivery {
+  height: 150px;
+}
+.delivery {
+  margin-left: 22.7rem;
+  margin-top: 10px;
+}
+.top-delivery .delivery a {
+  text-decoration: none;
+}
+.delivery img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-top: 60px;
+  margin-right: 5px;
+}
+.delivery button {
+  margin-right: 10px;
+  height: 75px;
+  width: 150px;
+}
+.delivery button:hover {
+  cursor: pointer;
+}
+.delivery button:active {
+  cursor: pointer;
+  color: black;
+}
+
+/* Filter-Buttons */
+.filterbtns {
+  margin-left: 22.7rem;
+  margin-top: 10px;
+}
+.filterbtns a {
+  text-decoration: none;
+}
+.filterbtns button {
+  margin-top: 10px;
+  margin-right: 10px;
+  height: 35px;
+  width: 95px;
+  background-color: white;
+  border: RGB(207, 207, 207) solid;
+  border-width: thin;
+  border-radius: 10px;
+  font-size: 14px;
+  color: #a2a2a2;
+}
+#cuisines {
+  margin-top: 10px;
+  margin-right: 10px;
+  height: 35px;
+  width: 95px;
+  background-color: white;
+  border: RGB(207, 207, 207) solid;
+  border-width: thin;
+  border-radius: 10px;
+  font-size: 14px;
+  color: #a2a2a2;
+  text-align: center;
+}
+/*Dishes*/
+.dishes .dishes-images {
+  display: inline-flex;
+  margin: 20px;
+}
+.dishes-images img {
+  height: 150px;
+  border-radius: 50%;
+  margin-right: 30px;
+  margin-top: 10px;
+  animation: zoom-in-zoom-out 1s;
+}
+.dishes-images a {
+  text-decoration: none;
+  text-align: center;
+}
+.dishes {
+  margin-left: 22.7rem;
+  margin-top: 20px;
+}
+
+.middle-dish {
+  background-color: #f8f8f8;
+  margin-top: 20px;
+}
+
+.dishes h1 {
+  margin-top: 20px;
+  color: #363636;
+  padding-top: 30px;
+}
+
+.dishes-images a h3 {
+  font-size: 20px;
+  margin-right: 25px;
+  color: #363636;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 80px;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+/*Restaurants*/
+@keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(0.5, 0.5);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+.Restaurant-collec .Restaurant-imgs {
+  display: inline-flex;
+  margin: 20px;
+}
+.Restaurant-imgs img {
+  height: 130px;
+  width: 150px;
+  border-radius: 50%;
+  margin-right: 30px;
+  margin-top: 10px;
+  animation: zoom-in-zoom-out 1s;
+}
+.Restaurant-imgs a {
+  text-decoration: none;
+  text-align: center;
+}
+.Restaurants {
+  margin-left: 22.7rem;
+  margin-top: 20px;
+}
+
+.Restaurant-collec h1 {
+  margin-top: 20px;
+  color: #363636;
+  padding-top: 30px;
+}
+
+.Restaurant-imgs a h3 {
+  font-size: 15px;
+  margin-right: 25px;
+  color: #363636;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 80px;
+  margin-top: 10px;
+  font-weight: 600;
+}
+.Restaurant-imgs a h3 p {
+  color: gray;
+  font-weight: 100;
+}
+
+.food-imgs {
+  margin-left: 22.7rem;
+  margin-top: 20px;
+}
+.food-imgs h1 {
+  color: #363636;
+}
+.food-imgs .food-container a img {
+  height: 250px;
+  width: 330px;
+  border-radius: 20px;
+  text-decoration: none;
+  margin: 10px;
+}
+.food-imgs .foods {
+  width: 100%;
+  display: inline-flex;
+}
+
+.food-imgs h2 {
+  width: 180px;
+}
+.food-imgs .heading {
+  display: flex;
+}
+.food-imgs .food-container {
+  height: 420px;
+  width: 350px;
+  margin: 20px;
+}
+.food-imgs .heading h2 {
+  width: 250px;
+  margin-top: 0px;
+  height: 15px;
+  margin-block-end: 0px;
+  white-space: nowrap;
+  color: rgb(28, 28, 28);
+  text-align: left;
+  font-weight: 500;
+  text-decoration: none;
+}
+.food-imgs .food-container .heading .rating {
+  width: 100px;
+}
+.food-imgs .food-container .heading .rating .score {
+  margin-left: 50px;
+  font-size: 18px;
+  background-color: rgb(38, 126, 62);
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  font-weight: 400;
+}
+.food-imgs .heading h4 {
+  width: 250px;
+  margin-top: 0px;
+  color: rgb(105, 105, 105);
+  font-weight: 300;
+}
+.food-imgs .food-container .heading .piece-time {
+  width: 150px;
+  text-align: right;
+}
+.food-imgs .food-container .heading .piece {
+  color: rgb(105, 105, 105);
+  font-weight: 300;
+}
+.food-imgs .food-container .heading .time {
+  font-weight: 400;
+  color: black;
+}
+.food-imgs a {
+  text-decoration: none;
+}
+
+.food-imgs .foods :hover {
+  box-shadow: 2px 2px 2px 2px grey;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+/*Footer*/
+footer {
+  background-color: #f8f8f8;
+  height: 500px;
+}
+.top-footer img {
+  height: 25px;
+  width: 150px;
+  margin-left: 22.7rem;
+  margin-top: 50px;
+}
+footer .top-footer {
+  display: inline-flex;
+}
+#india {
+  margin-left: 800px;
+  margin-top: 50px;
+  font-size: 20px;
+  background-color: white;
+  border: RGB(207, 207, 207) solid;
+  border-width: thin;
+  border-radius: 10px;
+  color: black;
+  text-decoration: none;
+  padding: 8px;
+  width: 93px;
+}
+#language {
+  margin-left: 40px;
+  margin-top: 50px;
+  font-size: 20px;
+  background-color: white;
+  border: RGB(207, 207, 207) solid;
+  border-width: thin;
+  border-radius: 10px;
+  color: black;
+  text-decoration: none;
+  padding: 8px;
+  width: 140px;
+}
+footer .middle-footer {
+  display: flex;
+  margin-left: 22.7rem;
+  margin-top: 20px;
+}
+.middle-footer .about-zomato a p {
+  color: #b1b1b1;
+  font-weight: 500;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+}
+
+.middle-footer .about-zomato a {
+  text-decoration: none;
+}
+.middle-footer .about-zomato {
+  width: 200px;
+}
+.middle-footer .about-zomato h3 {
+  text-align: left;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+}
+.middle-footer .about-zomato {
+  margin: 20px;
+}
+#zomaverse {
+  width: 200px;
+  padding: 0%;
+  margin-right: 0%;
+}
+#for-restaurants {
+  width: 300px;
+  margin-right: 0%;
+}
+#social-links .social img {
+  height: 20px;
+  width: 20px;
+  margin: 3px;
+}
+.apple-playstore {
+  width: 200px;
+  height: 200px;
+}
+.apple-playstore img {
+  width: 130px;
+  height: 40px;
+  margin: 3px;
+  border-radius: 10px;
+}
